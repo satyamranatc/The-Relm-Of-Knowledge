@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+body{
+  color-scheme: light dark;
+  color: black;
+  background-color: rgba(225, 251, 248, 0.87);;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: .7rem 1.5rem;
+}
+
+nav ul
+{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+
+
+#CourseContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.CourseCard
+{
+  min-width: 300px;
+  max-width: 450px;
+  flex: 1;
+  background-color: white;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 20px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.CourseCard img
+{
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.CourseCard h2
+{
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.CourseCard p
+{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CourseCard button
+{
+  padding: .6rem 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-left: 1rem;
+  border-radius: 20px;
+}
+
+
+
+
+
